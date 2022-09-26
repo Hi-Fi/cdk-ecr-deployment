@@ -153,7 +153,7 @@ Name | Type | Description
 -----|------|-------------
 **secret** | <code>[aws_secretsmanager.ISecret](#aws-cdk-lib-aws-secretsmanager-isecret)</code> | Reference to secret where credentials are stored.
 **passwordKey**? | <code>string</code> | Key containing password.<br/>__*Optional*__
-**usenameKey**? | <code>string</code> | Key containing username.<br/>__*Optional*__
+**usernameKey**? | <code>string</code> | Key containing username.<br/>__*Optional*__
 
 
 

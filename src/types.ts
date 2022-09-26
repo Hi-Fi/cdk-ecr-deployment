@@ -126,7 +126,7 @@ export interface ISecret {
   /**
        * Key containing username
        */
-  usenameKey?: string;
+  usernameKey?: string;
   /**
        * Key containing password
        */

@@ -95,7 +95,7 @@ describe('stack with key-value secret', () => {
     src: new DockerImageName('javacs3/javacs3:latest', {
       secretManager: {
         secret: sm.Secret.fromSecretNameV2(stack, 'SrcSecret', 'key-value-secret'),
-        usenameKey: 'username',
+        usernameKey: 'username',
         passwordKey: 'password',
       },
     }),
